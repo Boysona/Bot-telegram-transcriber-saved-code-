@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+faster-whisper
+requests
+Flask
+yt_dlp
