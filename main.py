@@ -78,22 +78,22 @@ admin_state = {}
 
 def set_bot_info():
     commands = [
-        telebot.types.BotCommand("start", "Restart the bot 🤖"),
-        telebot.types.BotCommand("status", "Show bot statistics 📊"),
-        telebot.types.BotCommand("info", "Show usage instructions ℹ️"),
-        telebot.types.BotCommand("translate", "Translate last transcription 🌐"),
-        telebot.types.BotCommand("summarize", "Summarize last transcription 📝"),
+        telebot.types.BotCommand("start", "Restart the bot "),
+        telebot.types.BotCommand("status", "Show bot statistics "),
+        telebot.types.BotCommand("info", "Show usage instructions "),
+        telebot.types.BotCommand("translate", "Translate last transcription "),
+        telebot.types.BotCommand("summarize", "Summarize last transcription "),
     ]
     bot.set_my_commands(commands)
 
     # Short description (About)
     bot.set_my_short_description(
-        "Transcribe voice massages , audio files & video massages even tiktok videos into text — fast & easy! & free"
+        "This bot transcribes voice messages, audio files, video files, and links from tiktok for —fast & free"
     )
 
     # Full description (What can this bot do?)
     bot.set_my_description(
-        """This bot transcribes voice messages, audio files, video files, and even TikTok links automatically.
+        """This bot transcribes voice messages, audio files, video files, and even TikTok videos automatically.
 • Supports multiple languages
 • Fast and accurate transcriptions
 • Includes translation & summarization features
@@ -152,7 +152,7 @@ def start_handler(message):
 • Videos
 • Audio files
 • TikTok video link
-• to transcribe  more info type commend - info 👀"""
+• to transcribe /download more info type commend - /info 👀"""
         )
 
 @bot.message_handler(commands=['info'])
