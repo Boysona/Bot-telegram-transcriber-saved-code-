@@ -118,10 +118,9 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        """Sorry dear…
-🔰 The bot will not work you if you are not in the required channel.
-
-      Join the channel click below bottom""",
+        """🥺 𝗦𝗼𝗿𝗿𝘆 𝗱𝗲𝗮𝗿…
+🔰 𝗣𝗹𝗲𝗮𝘀𝗲 𝗷𝗼𝗶𝗻 𝘁𝗵𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 @mediatranscriber 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁
+‼️ 𝗔𝗳𝘁𝗲𝗿 𝗷𝗼𝗶𝗻𝗶𝗻𝗴, 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝗼𝘁""",
         reply_markup=markup
     )
 
