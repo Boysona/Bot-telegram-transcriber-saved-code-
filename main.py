@@ -109,7 +109,9 @@ def set_bot_info():
 
     # Full description (What can this bot do?)
     bot.set_my_description(
-        """This bot can Transcribe and Summarize and translate any media files (Voice messages, Audio files or Videos) for free"""
+        """This bot quickly transcribes, summarizes, and translates voice massages , tiktok videos, audio files, and videos— free and in multiple languages.
+
+     🔥Enjoy free usage and start now!👌🏻"""
     )
 
 bot.set_my_description(
@@ -130,10 +132,7 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        """🔓 Unlock everything — for FREE!
-💸 No fees, no limits. Ever.
-✨ Just join the channel below
-🤖 Then come back and enjoy unlimited access to the bot!""",
+        """This bot only works when you join the channel 👉🏻 @transcriberbo, so first join the channel, then come back for the bot to work for you🥰""",
         reply_markup=markup
     )
 
